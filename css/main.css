@@ -1,0 +1,182 @@
+
+/*
+ * Common tags
+ */
+body {
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 200;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+h1, h2, h3 {
+	font-weight: 400;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*
+ * Header
+ */
+
+.header {
+	width: 100%;
+}
+
+.header__inner {
+	display: flex;
+	flex-wrap: wrap;
+	height: 6.5em;
+	border-bottom: 2px solid #7d97ad;
+}
+
+.header__logo {
+	width: 10%;
+}
+
+.header__logo > img {
+	height: 4em;
+	margin-top: 1.5em;
+}
+
+
+.header__content {
+	width: 90%;
+}
+
+.header__content > h1 {
+	margin-top: 0.67em;
+	margin-bottom: 0;
+	font-size: 2.5em;
+	font-weight: 100;
+}
+
+.header__content > h2 {
+	margin: 0;
+	font-weight: 400;
+	font-size: 0.8em;
+}
+
+.name, .position {
+	text-align: right;
+}
+
+/*
+ * Main
+ */
+main {
+	width: 100%;
+}
+
+.content {
+	width: 100%;
+	padding-top: 1em;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+/*
+ * Big Piture
+ */
+
+.big_picture {
+	width: 100%;
+}
+
+.big_picture > img {
+	width: 100%;
+}
+
+/*
+ * Feature Work
+ */
+
+.feature_work {
+	width: 100%;
+}
+
+.feature_work__inner {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.feature_work__title {
+	width: 100%;
+	margin-top: 0.6em;
+	margin-right: 0;
+	margin-bottom: 0.4em;
+	margin-left: 0.5em;
+}
+
+.feature_work__title > a {
+	text-decoration: none;
+	color: #737373;
+}
+
+.feature_work__title > a:hover {
+	text-decoration: underline;
+}
+
+/*
+ * Feature Work_boxes
+ */
+
+.feature_work__box {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.feature_work__box__thumbnail {
+	width: 30%;
+}
+
+.feature_work__box__thumbnail > img {
+	width: 100%;
+}
+
+.feature_work__box__name {
+	width: 70%;
+	text-align: left;
+	padding-left: 0.5em;
+}
+
+.feature_work__box__name__title {
+	font-size: 1.1em;
+	margin: 0;
+}
+
+.feature_work__box__name__title > a {
+	text-decoration: none;
+	color: #2d3c49;
+}
+
+.feature_work__box__name__title > a:hover {
+	text-decoration: underline;
+}
+
+.feature_work__box__name > p {
+	margin-top: 0.4em;
+	margin-bottom: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/*
+ * Appify
+ */
+
+/*
+ * sunflower
+ */
+
+/*
+ * bokeh
+ */
