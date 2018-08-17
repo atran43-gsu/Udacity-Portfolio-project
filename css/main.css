@@ -12,13 +12,16 @@ body {
 	flex-wrap: wrap;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
 	font-weight: 400;
 }
 
 * {
 	box-sizing: border-box;
 }
+
 
 /*
  * Header
@@ -66,9 +69,11 @@ h1, h2, h3 {
 	text-align: right;
 }
 
+
 /*
  * Main
  */
+
 main {
 	width: 100%;
 }
@@ -92,6 +97,7 @@ main {
 .big_picture > img {
 	width: 100%;
 }
+
 
 /*
  * Feature Work
@@ -123,6 +129,7 @@ main {
 .feature_work__title > a:hover {
 	text-decoration: underline;
 }
+
 
 /*
  * Feature Work_boxes
